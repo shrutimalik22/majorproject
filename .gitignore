@@ -4,12 +4,6 @@
 # macOS
 .DS_Store
 
-# Raw datasets (too big for repo)
-data/*.csv
-
-# Optional: results files (if you don't want to track them)
-results/*.csv
-
 # Python cache
 __pycache__/
 *.pyc
