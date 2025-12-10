@@ -1,0 +1,80 @@
+[
+  {
+    "input_file": "data/friday_ddos.csv",
+    "output_file": "data/processed/friday_ddos.parquet",
+    "rows": 225745,
+    "class_counts": {
+      "DDoS": 128027,
+      "BENIGN": 97718
+    }
+  },
+  {
+    "input_file": "data/friday_morning.csv",
+    "output_file": "data/processed/friday_morning.parquet",
+    "rows": 191033,
+    "class_counts": {
+      "BENIGN": 189067,
+      "Bot": 1966
+    }
+  },
+  {
+    "input_file": "data/friday_portscan.csv",
+    "output_file": "data/processed/friday_portscan.parquet",
+    "rows": 286467,
+    "class_counts": {
+      "PortScan": 158930,
+      "BENIGN": 127537
+    }
+  },
+  {
+    "input_file": "data/monday.csv",
+    "output_file": "data/processed/monday.parquet",
+    "rows": 529918,
+    "class_counts": {
+      "BENIGN": 529918
+    }
+  },
+  {
+    "input_file": "data/thursday_afternoon.csv",
+    "output_file": "data/processed/thursday_afternoon.parquet",
+    "rows": 288602,
+    "class_counts": {
+      "BENIGN": 288566,
+      "Infiltration": 36
+    }
+  },
+  {
+    "input_file": "data/thursday_morning.csv",
+    "output_file": "data/processed/thursday_morning.parquet",
+    "rows": 170366,
+    "class_counts": {
+      "BENIGN": 168186,
+      "Web Attack \ufffd Brute Force": 1507,
+      "Web Attack \ufffd XSS": 652,
+      "Web Attack \ufffd Sql Injection": 21
+    }
+  },
+  {
+    "input_file": "data/tuesday.csv",
+    "output_file": "data/processed/tuesday.parquet",
+    "rows": 445909,
+    "class_counts": {
+      "BENIGN": 432074,
+      "FTP-Patator": 7938,
+      "SSH-Patator": 5897
+    }
+  },
+  {
+    "input_file": "data/wednesday.csv",
+    "output_file": "data/processed/wednesday.parquet",
+    "rows": 692703,
+    "class_counts": {
+      "DoS Hulk": 231073,
+      "BENIGN": 440031,
+      "DoS slowloris": 5796,
+      "DoS Slowhttptest": 5499,
+      "DoS GoldenEye": 10293,
+      "Heartbleed": 11
+    }
+  }
+]
